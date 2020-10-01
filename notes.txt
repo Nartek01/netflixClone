@@ -1,0 +1,36 @@
+api : key 7743dbbd06bb4bacb4cc22e233e55d10
+api : GET https://api.themoviedb.org/3/movie/550?api_key=7743dbbd06bb4bacb4cc22e233e55d10
+youtube link : https://www.youtube.com/watch?v=XtMThy8QKqU
+
+
+
+Log: 29/9 Tuesday timestamp 30:25
+created requests.js
+created const APIKEY = "api key from tmdb.com"
+created object requests = {
+  //created two properties
+  fetchTrending: `/../?api_key${APIKEY}`;
+}
+
+Log: 29/9 Tuesday timestamp 39:00
+created Row.js component in react capital letters marks components name.
+(everything inside component that starts with capital letter is a component)
+
+inside Row.js imported react
+
+(import React from 'react')
+created a function Row() {
+  return (
+    <div>
+    { title }
+    {...}
+  )
+}
+
+//exported Row function from Row.js with
+export default Row;
+
+Log: 29/9 Tuesday timestamp 50:57
+Modified App.js and imported react, App.css, Row and requests, function App() renders <h1 /> with string
+and two <Row /> element with title as string and const fetchUrl(requests.)
+
