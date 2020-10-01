@@ -1,3 +1,6 @@
+Netflix Clone tutorial from Clever Programmer!
+Link to the video https://www.youtube.com/watch?v=XtMThy8QKqU&t=3024s
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
