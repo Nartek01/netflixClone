@@ -1,10 +1,10 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from './axios'
 
 
 function Row({ title, fetchUrl }) {
   const [movies, setMovies] = useState([]);
-  // A snippet of code which runs based on a specific condition/variable
+  //En liten kodblock som körs eller inte körs baserad på specifika kondition och/eller variabler
 
   useEffect(() => {
     async function fetchData() {
@@ -12,7 +12,7 @@ function Row({ title, fetchUrl }) {
       console.log(request);
     }
     fetchData();
-  // if [], run once when the row load, and dont run it again
+    // Parametern är "[]" kör koden endast en gång, när Row function laddas
   }, []);
 
   return (
